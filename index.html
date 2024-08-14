@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <img src="/images/Logo.png" alt="">
+    </header>
+    <main>
+
+        <form class="contenedor_formulario">
+            <textarea class="form_input" name="mensaje" id="" cols="30" rows="10" placeholder="digite su texto"></textarea>
+            <div class="alert_mesage">
+                <img src="/images/Alert_icon.png" alt="" >
+                <spam>Solo letras minusculas y sin acentos</spam>
+            </div>
+            <div class="botones_container">
+
+                <button class="btn_encriptar btn_form">Encriptar</button>
+                <button class="btn_desencriptar btn_form">Desencriptar</button>
+            </div>
+        </form>
+
+        <aside class="resultado">
+            <img src="/images/Munheco.png" alt="imagen del munheco" class="munheco">
+            <div class="mesage_container">
+                <h3 class="titulo_resultado">Ningun Mensaje fue encontrado</h3>
+                <p class="texto_resultado" >Ingresa el texto que deseas encriptar o desencriptar</p>
+                <Button class=" btn_desencriptar hidden  btn_copiar" >Copiar</Button>
+            </div>    
+        </aside>
+
+
+       <!--  <textarea name="" id="" cols="30" rows="10"></textarea> -->
+
+
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
